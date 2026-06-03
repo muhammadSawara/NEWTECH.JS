@@ -1,5 +1,5 @@
 let cartTotal = Number(prompt("Enter cart total"));
-let member = prompt("Are you a member?")
+let member = prompt("Are you a member?");
 
 if(member == "yes" && cartTotal>=200){
     cartTotal= cartTotal*80/100;
